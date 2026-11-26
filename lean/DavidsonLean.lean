@@ -5,3 +5,5 @@ import DavidsonLean.Height
 import DavidsonLean.Extension
 import DavidsonLean.Criterion
 import DavidsonLean.Gamma
+import DavidsonLean.NonInteger
+import DavidsonLean.Conjecture

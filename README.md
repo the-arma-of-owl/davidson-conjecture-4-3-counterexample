@@ -13,12 +13,21 @@ For a unit complex number $\alpha$, $\Gamma_\alpha=\mathrm{Cay}(\mathbb Z[\alpha
 > (all twelve roots lie on the unit circle), $\chi(\Gamma_\alpha)=4$. Hence Conjecture 4.3 is false.
 
 - $f$ satisfies every necessary condition for a counterexample that Davidson derived: Prop. 4.5, and degree at least $10$.
-- **Proof.** Three-colourings of an abelian Cayley graph correspond to characters that put every generator in $[1/3,2/3]$. This criterion is due to [kooshi/hadwiger-nelson](https://github.com/kooshi/hadwiger-nelson), row 79, with a Lean proof of the direction we use. It reduces 3-colourability of the subgraph spanned by $1,\alpha,\dots,\alpha^{79}$ to finitely many linear programs.
+- **Proof.** Three-colourings of an abelian Cayley graph correspond to characters that put every generator in $[1/3,2/3]$. This criterion is due to [kooshi/hadwiger-nelson](https://github.com/kooshi/hadwiger-nelson), row 79, with a Lean proof of the direction we use. We formalized that direction again, independently, in [`lean/`](lean/). It reduces 3-colourability of the subgraph spanned by $1,\alpha,\dots,\alpha^{79}$ to finitely many linear programs.
 - **Certificate.** An exact certificate shows that all of these programs are infeasible: 75,530 nodes with rational Farkas multipliers.
 - **Sharpness.** The subgraph spanned by $1,\dots,\alpha^{78}$ is 3-colourable.
-- **Lean.** The lower bound is formalized in Lean 4 from end to end ([`lean/`](lean/)): `gamma_not_colorable` states that for every root $\alpha$ of $f$, $\Gamma_\alpha$ is not 3-colourable.
-  - It combines Lemma 2 (necessity of the criterion) with Proposition 3. Both are checked by the Lean kernel, except one step: acceptance of the certificate, which uses `native_decide`.
-  - Not in Lean: the irreducibility of $f$ (that $\alpha$ is an algebraic noninteger), Davidson's upper bound $\chi\le4$, and Lemma 2′, which is used only for sharpness.
+- **Lean.** The refutation is a single Lean 4 theorem ([`lean/`](lean/)):
+
+  ```lean
+  def Conjecture43 : Prop :=
+    ∀ α : ℂ, ‖α‖ = 1 → IsAlgebraic ℚ α → ¬ IsIntegral ℤ α → (Gamma α).chromaticNumber ≤ 3
+  theorem conjecture43_false : ¬ Conjecture43
+  ```
+
+  Here `Gamma α` is $\mathrm{Cay}(\mathbb Z[\alpha],\{\pm\alpha^n\})$.
+  - **Kernel-checked:** Lemma 2 (necessity of the criterion), that no root of $f$ is an algebraic integer, and the soundness of the certificate checker.
+  - **The one exception:** acceptance of the 75,530-node certificate, which uses `native_decide` (compiled evaluation).
+  - **Not formalized:** Davidson's upper bound $\chi\le4$ and sharpness. Neither is needed for the refutation.
 
 ## Özet (Türkçe)
 
@@ -26,10 +35,10 @@ Davidson (Ekim 2026), birim karmaşık $\alpha$ için tanımlanan $\Gamma_\alpha
 
 Bu sanı yanlıştır. Yukarıdaki 12. dereceden $f$'nin her kökü için $\chi(\Gamma_\alpha)=4$ olur. Kanıt iki parçadan oluşur:
 
-- **Ölçüt.** Üç renklendirmeyi karakterlerle ilişkilendiren ölçüt (Lean'de biçimselleştirilmiş).
+- **Ölçüt.** Üç renklendirmeyi karakterlerle ilişkilendiren ölçüt; kullanılan yönü Lean'de biçimselleştirildi.
 - **Sertifika.** 75.530 düğümlü, kesin rasyonel sayılarla yazılmış bir sertifika.
 
-İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). "f'nin her kökü α için Γ_α 3 renkle boyanamaz" sonucu Lean 4'te baştan sona kanıtlandı (`lean/`). Bu kanıt Lemma 2'yi ve Önerme 3'ü kapsıyor; tek ek varsayım, sertifikanın `native_decide` ile kabulü. Lean'e geçmeyenler: f'nin indirgenemezliği (α'nın cebirsel tamsayı olmaması) ve χ ≤ 4 üst sınırı.
+İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). "Sanı 4.3 yanlıştır" Lean 4'te tek bir teorem olarak kanıtlandı: `conjecture43_false` (`lean/`). Sanının Lean'deki ifadesi makaledekiyle aynı: birim uzunlukta, cebirsel ve cebirsel tamsayı olmayan her α için χ(Γ_α) ≤ 3. Ölçüt (Lemma 2), α'nın cebirsel tamsayı olmaması ve sertifika denetleyicisinin doğruluğu Lean çekirdeğinde kontrol edildi. Tek ek varsayım, sertifikanın `native_decide` ile kabulü. Sanıyı çürütmek için gerekmeyen χ ≤ 4 üst sınırı Lean'e geçirilmedi.
 
 ## Pictures
 
@@ -60,7 +69,7 @@ cd .. && python3 code/check_proof.py "[2,2,1,-1,-2,-1,-1,-1,-2,-1,1,2,2]" 68 cer
   - re-checked all 75,530 certificate nodes with its own integer-arithmetic checker.
 
   The package and our re-run are in [`verification/astra/`](verification/astra/).
-- **Lean.** Claude (Opus 5.5) agents wrote the Lean 4 code in two rounds: first the certificate, then Lemma 2 and the main theorem. The coordinating Claude session audited each round:
+- **Lean.** Claude (Opus 5.5) agents wrote the Lean 4 code in three rounds: the certificate first, then Lemma 2, then non-integrality and the statement of the conjecture. The coordinating Claude session audited each round:
   - compared each statement with the paper;
   - rebuilt everything from scratch;
   - regenerated the certificate data, with an identical hash;
@@ -79,7 +88,7 @@ Errors are possible. Please open an issue if you find one.
   year         = {2026},
   month        = nov,
   howpublished = {\url{https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample}},
-  note         = {Version 1}
+  note         = {Version 1.1}
 }
 ```
 

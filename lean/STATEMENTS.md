@@ -168,3 +168,58 @@ The last axiom is inherited from `prop3` (section 1).
 Lemma 1 as stated (ker π = ⟨ℓ_j⟩, needs irreducibility/Gauss), Lemma 2′, the upper bound χ(Γ_α) ≤ 4 ([D, Thm 4.1]), irreducibility of f, and Davidson's filters.
 
 Build: `lake build` (all modules, clean) 47 s wall; the four new files build in about 2 s each.
+
+## 5. Noninteger roots and the refutation of Conjecture 4.3 (`NonInteger.lean`, `Conjecture.lean`)
+
+No `sorry`, `admit`, new `axiom` or `native_decide` in these two files. This section supersedes the remark in 4.6 and in the README that "α is an algebraic noninteger" is not formalized.
+
+### 5.1 The paper's definitions and the conjecture
+
+Paper §1 (line 24): "Following [D], a *direction parameter* is a unit complex number $\alpha$, and $\Gamma_\alpha=\mathrm{Cay}(\mathbb Z[\alpha],\{\pm\alpha^n : n\ge 0\})$. For algebraic $\alpha$, let $f=\sum_{i=0}^d a_ix^i$ be its primitive integer minimal polynomial with $a_d>0$. Then $\alpha$ is *noninteger* if $a_d\ge2$, i.e. if $\alpha$ is not an algebraic integer."
+
+Paper §1 (line 26): "**[D, Conjecture 4.3].** If $\alpha$ is an algebraic noninteger direction parameter, then $\chi(\Gamma_\alpha)\le 3$."
+
+```lean
+def Davidson.Conjecture43 : Prop :=
+  ∀ α : ℂ, ‖α‖ = 1 → IsAlgebraic ℚ α → ¬ IsIntegral ℤ α → (Gamma α).chromaticNumber ≤ 3
+
+theorem Davidson.conjecture43_false : ¬ Conjecture43
+```
+`Gamma α` is the graph of 4.1 (vertex set `Algebra.adjoin ℤ {α}` = ℤ[α] ⊂ ℂ); `chromaticNumber` takes values in `ℕ∞`.
+Differences:
+- "noninteger" is formalized by its second form, "α is not an algebraic integer" (`¬ IsIntegral ℤ α`), not by "a_d ≥ 2" for the primitive minimal polynomial. The two are equivalent by Gauss's lemma (an algebraic number is an algebraic integer iff its primitive minimal polynomial is monic); this equivalence is not proved in Lean.
+- "algebraic" is `IsAlgebraic ℚ α`; "unit complex number" is `‖α‖ = 1`.
+
+### 5.2 Every root of f is a counterexample
+
+Paper §2 (lines 47, 49): "Since $f$ is not monic, no root is an algebraic integer, and in particular no root is a root of unity." "So every root $\alpha$ is an algebraic noninteger direction parameter." Abstract (line 13): "Then $\alpha$ is an algebraic noninteger direction parameter, and $\chi(\Gamma_\alpha)=4$."
+
+```lean
+theorem Davidson.not_isIntegral (α : ℂ) (hα : Polynomial.aeval α Poly.f = 0) : ¬ IsIntegral ℤ α
+theorem Davidson.isAlgebraic_of_root (α : ℂ) (hα : Polynomial.aeval α Poly.f = 0) : IsAlgebraic ℚ α
+theorem Davidson.root_counterexample (α : ℂ) (hα : aeval α Poly.f = 0) :
+    ‖α‖ = 1 ∧ IsAlgebraic ℚ α ∧ ¬ IsIntegral ℤ α ∧ 4 ≤ (Gamma α).chromaticNumber
+theorem Davidson.exists_root_f : ∃ α : ℂ, aeval α Poly.f = 0
+```
+Differences:
+- The paper derives "not an algebraic integer" from irreducibility of f over ℚ plus "f is not monic". Lean does **not** use (or prove) irreducibility of f. The proof: if α were integral, so would be conj α = α⁻¹ (‖α‖ = 1, `roots_on_circle`), hence y = α + α⁻¹, a root of F (`trace_identity`). But no root of F is integral over ℤ (`NonInteger.F_root_not_integral`): the monic minimal polynomial g of y divides F in ℤ[X]; F mod 3 is irreducible over 𝔽₃ (`NonInteger.P_irreducible`, for the monic associate P = X^6+X^5+2X^4+2X^3+2 = 2·(F mod 3)), so deg g = 6 and F = 2g, contradicting F(0) = 1.
+- Irreducibility of P over ZMod 3 is checked with `Monic.irreducible_iff_natDegree'`: a monic factor of degree 1, 2 or 3 is excluded by comparing coefficients and a kernel `decide` over the 3^6 coefficient tuples per degree.
+- "χ(Γ_α) = 4" is stated only as `4 ≤ χ(Γ_α)` (the upper bound [D, Thm 4.1] is not formalized; not needed for the refutation).
+- Irreducibility of f over ℚ, "primitive" and "no root is a root of unity" remain unformalized; they are not needed.
+
+### 5.3 Axioms
+
+```
+'Davidson.NonInteger.P_irreducible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.NonInteger.F_root_not_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.not_isIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.isAlgebraic_of_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.exists_root_f' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.root_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound,
+  Davidson.cert_ok._native.native_decide.ax_1_1]
+'Davidson.conjecture43_false' depends on axioms: [propext, Classical.choice, Quot.sound,
+  Davidson.cert_ok._native.native_decide.ax_1_1]
+```
+The last axiom is inherited from `prop3` (section 1) through `four_le_chromaticNumber`.
+
+Build: `lake build` (all modules, project build directory clean, prebuilt Mathlib) 52 s wall; `NonInteger` builds in 3.2 s, `Conjecture` in 1.1 s.
