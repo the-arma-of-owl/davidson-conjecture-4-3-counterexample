@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below."
+title: "A counterexample to Davidson's Conjecture 4.3: a non-3-colourable monomial Cayley graph with an algebraic noninteger direction parameter"
+authors:
+  - family-names: "Çam"
+    given-names: "Efe"
+version: "1"
+date-released: "2026-11-26"
+url: "https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample"
+repository-code: "https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample"
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: >-
+  For every root alpha of an explicit degree-12 polynomial with leading
+  coefficient 2, the unit-distance graph Cay(Z[alpha], {±alpha^n : n >= 0})
+  has chromatic number 4. This disproves Conjecture 4.3 of Davidson
+  (arXiv:2610.09474), which predicts that three colours suffice whenever
+  alpha is an algebraic noninteger. The repository contains an exact
+  75,530-node infeasibility certificate with rational Farkas multipliers, a
+  checker, and two independent referee reports.
+keywords:
+  - graph colouring
+  - chromatic number
+  - unit-distance graphs
+  - Cayley graphs
+  - Hadwiger–Nelson problem
+  - counterexample
+preferred-citation:
+  type: generic
+  title: "A counterexample to Davidson's Conjecture 4.3: a non-3-colourable monomial Cayley graph with an algebraic noninteger direction parameter"
+  authors:
+    - family-names: "Çam"
+      given-names: "Efe"
+  year: 2026
+  month: 11
+  url: "https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample"
+  notes: "Version 1"
+references:
+  - type: article
+    title: "Coloring Monomial Cayley Graphs: The One-Parameter Case"
+    authors:
+      - family-names: "Davidson"
+        given-names: "J."
+    year: 2026
+    journal: "arXiv preprint"
+    url: "https://arxiv.org/abs/2610.09474"
+  - type: software
+    title: "hadwiger-nelson"
+    authors:
+      - alias: "kooshi"
+    repository-code: "https://github.com/kooshi/hadwiger-nelson"
+    notes: "LEDGER.md rows 79 and 119: the three-colour criterion for abelian Cayley graphs, with a Lean proof of its forward direction."

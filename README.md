@@ -42,6 +42,21 @@ cd .. && python3 code/check_proof.py "[2,2,1,-1,-2,-1,-1,-1,-2,-1,1,2,2]" 68 cer
 
 Errors are possible. Please open an issue if you find one.
 
+## Citation / Atıf
+
+```bibtex
+@misc{cam2026davidson,
+  author       = {{\c{C}}am, Efe},
+  title        = {A counterexample to {D}avidson's {C}onjecture 4.3: a non-3-colourable monomial {C}ayley graph with an algebraic noninteger direction parameter},
+  year         = {2026},
+  month        = nov,
+  howpublished = {\url{https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample}},
+  note         = {Version 1}
+}
+```
+
+The same metadata is in [`CITATION.cff`](CITATION.cff), which GitHub uses for its “Cite this repository” button. Atıf için bu BibTeX kaydını ya da GitHub'daki “Cite this repository” düğmesini kullanabilirsiniz.
+
 ## License
 
 Text and data: CC BY 4.0. Code: MIT.
