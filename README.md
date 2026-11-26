@@ -16,7 +16,9 @@ For a unit complex number $\alpha$, $\Gamma_\alpha=\mathrm{Cay}(\mathbb Z[\alpha
 - **Proof.** Three-colourings of an abelian Cayley graph correspond to characters that put every generator in $[1/3,2/3]$. This criterion is due to [kooshi/hadwiger-nelson](https://github.com/kooshi/hadwiger-nelson), row 79, with a Lean proof of the direction we use. It reduces 3-colourability of the subgraph spanned by $1,\alpha,\dots,\alpha^{79}$ to finitely many linear programs.
 - **Certificate.** An exact certificate shows that all of these programs are infeasible: 75,530 nodes with rational Farkas multipliers.
 - **Sharpness.** The subgraph spanned by $1,\dots,\alpha^{78}$ is 3-colourable.
-- **Lean.** The finite core is formalized in Lean 4 ([`lean/`](lean/)). This covers Proposition 3 in its exact form, the finite $K=78$ system behind sharpness, and the polynomial facts of §2. The checker's soundness is kernel-checked, and the certificate is accepted via `native_decide`. The three-colour criterion (Lemmas 1, 2, 2′) is not formalized here.
+- **Lean.** The lower bound is formalized in Lean 4 from end to end ([`lean/`](lean/)): `gamma_not_colorable` states that for every root $\alpha$ of $f$, $\Gamma_\alpha$ is not 3-colourable.
+  - It combines Lemma 2 (necessity of the criterion) with Proposition 3. Both are checked by the Lean kernel, except one step: acceptance of the certificate, which uses `native_decide`.
+  - Not in Lean: the irreducibility of $f$ (that $\alpha$ is an algebraic noninteger), Davidson's upper bound $\chi\le4$, and Lemma 2′, which is used only for sharpness.
 
 ## Özet (Türkçe)
 
@@ -27,7 +29,7 @@ Bu sanı yanlıştır. Yukarıdaki 12. dereceden $f$'nin her kökü için $\chi(
 - **Ölçüt.** Üç renklendirmeyi karakterlerle ilişkilendiren ölçüt (Lean'de biçimselleştirilmiş).
 - **Sertifika.** 75.530 düğümlü, kesin rasyonel sayılarla yazılmış bir sertifika.
 
-İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). Sertifika (Önerme 3), K=78 keskinliği ve polinomla ilgili olgular ayrıca Lean 4'te doğrulandı (`lean/`).
+İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). "f'nin her kökü α için Γ_α 3 renkle boyanamaz" sonucu Lean 4'te baştan sona kanıtlandı (`lean/`). Bu kanıt Lemma 2'yi ve Önerme 3'ü kapsıyor; tek ek varsayım, sertifikanın `native_decide` ile kabulü. Lean'e geçmeyenler: f'nin indirgenemezliği (α'nın cebirsel tamsayı olmaması) ve χ ≤ 4 üst sınırı.
 
 ## Pictures
 
@@ -58,7 +60,7 @@ cd .. && python3 code/check_proof.py "[2,2,1,-1,-2,-1,-1,-1,-2,-1,1,2,2]" 68 cer
   - re-checked all 75,530 certificate nodes with its own integer-arithmetic checker.
 
   The package and our re-run are in [`verification/astra/`](verification/astra/).
-- **Lean.** A Claude (Opus 5.5) agent wrote the Lean 4 code. The coordinating Claude session then audited it:
+- **Lean.** Claude (Opus 5.5) agents wrote the Lean 4 code in two rounds: first the certificate, then Lemma 2 and the main theorem. The coordinating Claude session audited each round:
   - compared each statement with the paper;
   - rebuilt everything from scratch;
   - regenerated the certificate data, with an identical hash;
