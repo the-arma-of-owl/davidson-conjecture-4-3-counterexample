@@ -1,0 +1,13 @@
+(1) admissible pair for K=11 verified: sigma = [1, -1, 1, -1, -1, -1, 1, 1, 1, -1, 1, -1] tau = [3, 3, 3, -3, -3, -3]
+(1) colour independent of representative on 20000 random (x, x+relation) pairs
+(1) sumset size 830
+(1) sumset edges with exponents <=11, <=12, <=14: 4828 4848 4848
+(1) rounding 3-colouring proper on sumset/exp<=11: True  monochromatic edges: 0
+(1) random test on G_11 (20000 vertices x 24 neighbours): monochromatic edges = 0
+(1) monochromatic exponent-12 edges of this colouring on the sumset: 20
+(2) witness: 24 vertices, 51 edges with exponent <=12; exponents used: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ; extra edges with exponent 13..40: 0
+(2) witness 3-colourable with exponents <=12 edges: False
+(2) witness 3-colourable with exponents <=11 edges: True
+(3) sumset 3-colourable with exponents <= 11:  CaDiCaL: True  Glucose: True
+(3) sumset 3-colourable with exponents <= 12:  CaDiCaL: False  Glucose: False
+(3) sumset 3-colourable with exponents <= 14:  CaDiCaL: False  Glucose: False

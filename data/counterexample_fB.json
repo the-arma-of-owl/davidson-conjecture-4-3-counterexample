@@ -1,0 +1,76 @@
+{
+ "polynomial_coeffs_a0_to_a12": [
+  2,
+  2,
+  1,
+  -1,
+  -2,
+  -1,
+  -1,
+  -1,
+  -2,
+  -1,
+  1,
+  2,
+  2
+ ],
+ "polynomial": "2x^12 + 2x^11 + x^10 - x^9 - 2x^8 - x^7 - x^6 - x^5 - 2x^4 - x^3 + x^2 + 2x + 2",
+ "trace_polynomial": "F(y) = y(y^2-4)(y+1)(2y^2-3) + 1 = 2y^6 + 2y^5 - 11y^4 - 11y^3 + 12y^2 + 12y + 1",
+ "checks": {
+  "irreducible_sage": true,
+  "irreducible_sympy": true,
+  "leading_coeff": 2,
+  "f_at_1": 1,
+  "F_at": {
+   "two": 1,
+   "minus_two": 1,
+   "zero": 1,
+   "one": 7,
+   "minus_one": 1
+  },
+  "D8": 1,
+  "Phi_m_divides_f_mod3": [],
+  "all_roots_on_unit_circle": true,
+  "mahler_measure": 2.0,
+  "root_angles_deg": [
+   5.292638,
+   51.165675,
+   92.65257,
+   113.162033,
+   134.179975,
+   170.498171
+  ]
+ },
+ "result": "chi(Gamma_alpha) = 4 for every root alpha (counterexample to Davidson Conj. 4.3)",
+ "level_threshold": {
+  "K_colourable": 78,
+  "K_not_colourable": 79,
+  "meaning": "Cay(Z-span(1..alpha^K), {+-alpha^n: n<=K}) is 3-colourable for K=78 and not for K=79"
+ },
+ "certificates": {
+  "proof_file": "runs/proof_fB_L68.jsonl",
+  "proof_sha256": "19602d8d452122bd4b3e387e229e43fca16f6dec75131587cfd14b8a7188b27e",
+  "proof_nodes": 75530,
+  "checker": "check_proof.py (pure Python fractions)",
+  "checker_result": "proof OK, maxdepth 67",
+  "K78_feasible_certificate": "runs/fB_K78_feasible_cert.json"
+ },
+ "independent_confirmations": {
+  "highs_milp": {
+   "K70": "feasible",
+   "K76": "feasible",
+   "K78": "feasible",
+   "K79": "infeasible (931 s)",
+   "K80": "infeasible (969 s)"
+  },
+  "float_dfs_symmetric": "max valid word length 67, 75530 nodes, 91 s",
+  "float_dfs_no_symmetry": "max 67, 151059 nodes, 185 s"
+ },
+ "criterion_validation": {
+  "paper_sextic_f0": "threshold K=12 (paper's witness uses exponents <= 12); z3 exact: K=11 sat, K=12 unsat; kissat: 830-vertex sumset UNSAT with directions<=12, SAT with <=11",
+  "degree6_classification": "154 irreducible monic reciprocal sextics (|coeff|<=3, f(1) odd, unit-circle root): words die out exactly for f0(x), f0(-x), matching the paper's Cor. 4.10",
+  "prior_art": "same criterion: kooshi/hadwiger-nelson LEDGER row 79 (Lean: CayleyThree.colorable_three_iff_bandSet_nonempty)"
+ },
+ "z3_K79": "not finished (stopped after ~45 min)",
+ "finite_witness": "not produced; must contain an edge +-alpha^n with n >= 79 (G_78 is 3-colourable)"
+}

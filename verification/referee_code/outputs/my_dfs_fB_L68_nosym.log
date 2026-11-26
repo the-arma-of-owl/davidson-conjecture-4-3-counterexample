@@ -1,0 +1,16 @@
+progress {'nodes': 10000, 'I': 10000, 'E': 0, 'maxdepth': 60, 'rationalised_tighter': 8937, 'lp_fail': 0} 7s
+progress {'nodes': 20000, 'I': 20000, 'E': 0, 'maxdepth': 61, 'rationalised_tighter': 18171, 'lp_fail': 0} 15s
+progress {'nodes': 30000, 'I': 30000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 26095, 'lp_fail': 0} 24s
+progress {'nodes': 40000, 'I': 40000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 33472, 'lp_fail': 0} 33s
+progress {'nodes': 50000, 'I': 50000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 41128, 'lp_fail': 0} 43s
+progress {'nodes': 60000, 'I': 60000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 49258, 'lp_fail': 0} 53s
+progress {'nodes': 70000, 'I': 70000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 56834, 'lp_fail': 0} 62s
+progress {'nodes': 80000, 'I': 80000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 65853, 'lp_fail': 0} 69s
+progress {'nodes': 90000, 'I': 90000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 73736, 'lp_fail': 0} 78s
+progress {'nodes': 100000, 'I': 100000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 81810, 'lp_fail': 0} 92s
+progress {'nodes': 110000, 'I': 110000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 89487, 'lp_fail': 0} 107s
+progress {'nodes': 120000, 'I': 120000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 96927, 'lp_fail': 0} 122s
+progress {'nodes': 130000, 'I': 130000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 104509, 'lp_fail': 0} 138s
+progress {'nodes': 140000, 'I': 140000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 113746, 'lp_fail': 0} 150s
+progress {'nodes': 150000, 'I': 150000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 122653, 'lp_fail': 0} 162s
+final {"nodes": 151059, "I": 151059, "E": 0, "maxdepth": 67, "rationalised_tighter": 123693, "lp_fail": 0, "time_s": 163.1}

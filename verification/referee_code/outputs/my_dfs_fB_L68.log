@@ -1,0 +1,8 @@
+progress {'nodes': 10000, 'I': 10000, 'E': 0, 'maxdepth': 65, 'rationalised_tighter': 8309, 'lp_fail': 0} 9s
+progress {'nodes': 20000, 'I': 20000, 'E': 0, 'maxdepth': 65, 'rationalised_tighter': 16589, 'lp_fail': 0} 17s
+progress {'nodes': 30000, 'I': 30000, 'E': 0, 'maxdepth': 65, 'rationalised_tighter': 24326, 'lp_fail': 0} 28s
+progress {'nodes': 40000, 'I': 40000, 'E': 0, 'maxdepth': 66, 'rationalised_tighter': 31810, 'lp_fail': 0} 38s
+progress {'nodes': 50000, 'I': 50000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 39079, 'lp_fail': 0} 49s
+progress {'nodes': 60000, 'I': 60000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 47914, 'lp_fail': 0} 56s
+progress {'nodes': 70000, 'I': 70000, 'E': 0, 'maxdepth': 67, 'rationalised_tighter': 56867, 'lp_fail': 0} 64s
+final {"nodes": 75530, "I": 75530, "E": 0, "maxdepth": 67, "rationalised_tighter": 61850, "lp_fail": 0, "time_s": 67.7}

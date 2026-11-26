@@ -1,0 +1,9 @@
+depth-67 word ++++---++---++++++------++++++---++---++++---++---++---++++++------  |tau|=3 everywhere: True
+   certified range of c_67: [27476560181691277/144115188075855872, 27255148256359817/72057594037927936] = [0.190657, 0.378241]
+   allowed c-values: union of [t-2,t+2], t in {+-3,+-9,+-15}  -> range lies in a gap: True
+depth-67 word ++++++------+++--+++--+++----+++--+++------++++++------+++--+++----  |tau|=3 everywhere: True
+   certified range of c_67: [5344237101020829/18014398509481984, 127080580994481187/144115188075855872] = [0.296665, 0.881799]
+   allowed c-values: union of [t-2,t+2], t in {+-3,+-9,+-15}  -> range lies in a gap: True
+nodes whose word uses some |tau| > 3: 62524 of 75530
+deepest node whose word uses |tau| > 3: 65
+(2) K=78 rounding colouring: Lambda-invariance failures 0/3000, improper edges 0/3000
