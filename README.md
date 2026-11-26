@@ -1,6 +1,6 @@
 # Davidson's Conjecture 4.3 is false: a non-3-colourable monomial Cayley graph with an algebraic noninteger parameter
 
-**Paper:** [`paper/counterexample.md`](paper/counterexample.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md), [`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md) · **Certificate:** [`certificate/`](certificate/)
+**Paper:** [`paper/counterexample.md`](paper/counterexample.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md), [`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md), [`verification/astra/`](verification/astra/) · **Lean:** [`lean/`](lean/) · **Certificate:** [`certificate/`](certificate/)
 
 ## Result
 
@@ -14,6 +14,7 @@ For a unit complex number $\alpha$, $\Gamma_\alpha=\mathrm{Cay}(\mathbb Z[\alpha
 - **Proof.** Three-colourings of an abelian Cayley graph correspond to characters that put every generator in $[1/3,2/3]$. This criterion is due to [kooshi/hadwiger-nelson](https://github.com/kooshi/hadwiger-nelson), row 79, with a Lean proof of the direction we use. It reduces 3-colourability of the subgraph spanned by $1,\alpha,\dots,\alpha^{79}$ to finitely many linear programs.
 - **Certificate.** An exact certificate shows that all of these programs are infeasible: 75,530 nodes with rational Farkas multipliers.
 - **Sharpness.** The subgraph spanned by $1,\dots,\alpha^{78}$ is 3-colourable.
+- **Lean.** The finite core is formalized in Lean 4 ([`lean/`](lean/)). This covers Proposition 3 in its exact form, the finite $K=78$ system behind sharpness, and the polynomial facts of §2. The checker's soundness is kernel-checked, and the certificate is accepted via `native_decide`. The three-colour criterion (Lemmas 1, 2, 2′) is not formalized here.
 
 ## Özet (Türkçe)
 
@@ -24,7 +25,7 @@ Bu sanı yanlıştır. Yukarıdaki 12. dereceden $f$'nin her kökü için $\chi(
 - **Ölçüt.** Üç renklendirmeyi karakterlerle ilişkilendiren ölçüt (Lean'de biçimselleştirilmiş).
 - **Sertifika.** 75.530 düğümlü, kesin rasyonel sayılarla yazılmış bir sertifika.
 
-İki bağımsız hakem sertifikayı baştan kontrol etti.
+İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). Sertifika (Önerme 3), K=78 keskinliği ve polinomla ilgili olgular ayrıca Lean 4'te doğrulandı (`lean/`).
 
 ## Verifying
 
@@ -39,6 +40,19 @@ cd .. && python3 code/check_proof.py "[2,2,1,-1,-2,-1,-1,-1,-2,-1,1,2,2]" 68 cer
 - **Direction.** Efe Çam directed the work.
 - **Search and certificate.** A Claude (Anthropic) agent, running in Claude Code, did the search, derived the criterion, and wrote the certificate generator and checker. It found the criterion independently; only afterwards did it learn that the criterion is already recorded, with a Lean proof, in kooshi/hadwiger-nelson. That work is credited throughout.
 - **Verification.** A separate Claude instance refereed the claim from scratch and re-implemented the checks ([`VERIFICATION.md`](VERIFICATION.md)). GPT-6.2 Sol (OpenAI) refereed it independently and re-checked all 75,530 nodes in exact arithmetic ([`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md)).
+- **Third check (GPT-6.2 Astra).** Working from commit `9f2a8de`, GPT-6.2 Astra did three things:
+  - re-verified the polynomial facts symbolically;
+  - rebuilt the $K=78$ witness;
+  - re-checked all 75,530 certificate nodes with its own integer-arithmetic checker.
+
+  The package and our re-run are in [`verification/astra/`](verification/astra/).
+- **Lean.** A Claude (Opus 5.5) agent wrote the Lean 4 code. The coordinating Claude session then audited it:
+  - compared each statement with the paper;
+  - rebuilt everything from scratch;
+  - regenerated the certificate data, with an identical hash;
+  - ran tests showing that corrupted certificates are rejected.
+
+  Details are in [`lean/README.md`](lean/README.md).
 
 Errors are possible. Please open an issue if you find one.
 
