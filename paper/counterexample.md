@@ -1,6 +1,6 @@
 # A counterexample to Davidson's Conjecture 4.3: a non-3-colourable monomial Cayley graph with an algebraic noninteger direction parameter
 
-*Efe Çam — with AI assistance (see "How this was produced" at the end). Version 1.2, 26 November 2026. Version 1.1 added the Lean formalization. Version 1.2 adds an explicit finite witness (Remark 1) and a second check by GPT-6.2 Astra. The proof of the Theorem is unchanged (see `CHANGELOG.md`).*
+*Efe Çam — with AI assistance (see "How this was produced" at the end). Version 1.3, 26 November 2026. Version 1.1 added the Lean formalization. Version 1.2 added an explicit finite witness (Remark 1) and a second check by GPT-6.2 Astra. Version 1.3 adds a lower bound for finite witnesses (Remark 3). The proof of the Theorem is unchanged (see `CHANGELOG.md`).*
 
 ## Abstract
 
@@ -160,8 +160,17 @@ The conjecture's hypothesis "noninteger" is formalized as "not an algebraic inte
 
    **Size.** Every vertex of $S$ can be written as $\sum_{k=12}^{79}r_k\alpha^k+\sum_{i<12}u_i\alpha^i$ with $r_k\in\{0,1\}$, because $a_{12}=2$. Each $u_i$ takes boundedly many values. So $S$ has fewer than $7.95\times10^{52}$ vertices (`witness_bound.py`), which is far too many to list. The construction is not formalized in Lean. We know of no small explicit witness. The sumset vertex sets we tried (up to about $2.5$ million vertices) induced $3$-colourable graphs.
 2. **Each equation is needed.** Deleting any one of the $68$ equations of Proposition 3 leaves a feasible system. For each $j$, GPT-6.2 Astra gave an exact rational $\sigma\in[-1,1]^{80}$ that satisfies the other $67$ equations (`verification/astra_3f96a35/omission_witnesses.json`); we re-checked all $68$. So no proper subset of the equations suffices.
-3. **Calibration.** The same computation for the monic sextic $x^6-x^4-x^3-x^2+1$ of [D] gives threshold $K=12$. This matches the exponent range of the 24-vertex witness of [D].
-4. **Other candidates.** Among the candidates with $F=y(y^2-4)Q\pm1$ that pass [D]'s filters, every one we examined has a periodic three-colouring, with these exceptions:
+3. **A lower bound for finite witnesses.** Every finite subgraph $S$ of $G_{79}$ that is not $3$-colourable contains a cycle of length at least $377$, so it has at least $377$ vertices.
+
+   *Proof.* Lift a closed walk $\gamma$ in $S$ to a walk in the grid $\mathbb Z^{80}$. By Lemma 1 the lift ends at its start plus $A^{\mathsf T}m(\gamma)$ for a unique $m(\gamma)\in\mathbb Z^{68}$, and $|\gamma|\ge\|A^{\mathsf T}m(\gamma)\|_1$. Let $t\in3(2\mathbb Z+1)^{68}$. Since $f(1)=1$, both $|\gamma|$ and $t\cdot m(\gamma)$ have the parity of $\sum_jm_j(\gamma)$.
+
+   - **Colouring from $t$.** Suppose $|t\cdot m(\gamma)|\le|\gamma|$ for every closed walk $\gamma$ in $S$. Fix a lift $\tilde v\in\mathbb Z^{80}$ of each vertex $v$. An edge $vw$ lifts to a grid edge from $\tilde v$ to $\tilde w+\ell_{vw}$ with $\ell_{vw}\in\ker\pi$. We look for integers $H(v)$ of the parity of $\sum_n\tilde v_n$ with $|H(w)-H(v)+t\cdot m(\ell_{vw})|\le1$ on every edge. Writing $H=2G+\text{parity}$, this is a system of difference constraints on $G$ with integer bounds. Around a closed walk the bounds add up to $(|\gamma|\mp t\cdot m(\gamma))/2\ge0$, so the system has a solution. Each $H(w)-H(v)+t\cdot m(\ell_{vw})$ is odd, hence $\pm1$, and $t\cdot m\equiv0\pmod 3$. So $H\bmod 3$ is a proper $3$-colouring of $S$.
+   - **A long cycle.** Hence, if $S$ is not $3$-colourable, then for every $t$ it contains a closed walk with $|t\cdot m(\gamma)|>|\gamma|$. Splitting at repeated vertices gives such a cycle, and by parity $|t\cdot m(\gamma)|\ge|\gamma|+2$.
+   - **The certificate.** `data/floor_certificates.json` gives a $t$ and an exact $\sigma$ with $A\sigma=t$ and $\rho=\|\sigma\|_\infty=1.00531\ldots$. Then $|\gamma|+2\le|t\cdot m|=|\sigma\cdot A^{\mathsf T}m|\le\rho\,\|A^{\mathsf T}m\|_1\le\rho|\gamma|$, so $|\gamma|\ge2/(\rho-1)>376$. $\square$
+
+   The other certificates in the same file give at least $345$ vertices for $G_{83}$, $144$ for $G_{90}$ and $68$ for $G_{120}$. `code/check_floor.py` checks all four exactly, and `code/floor_search.py` found them with HiGHS. Together with Remark 1, the smallest non-$3$-colourable finite subgraph of $G_{79}$ has between $377$ and $7.95\times10^{52}$ vertices. This remark is not formalized in Lean.
+4. **Calibration.** The same computation for the monic sextic $x^6-x^4-x^3-x^2+1$ of [D] gives threshold $K=12$. This matches the exponent range of the 24-vertex witness of [D]. There the argument of Remark 3 gives at least $10$ vertices, consistent with that witness.
+5. **Other candidates.** Among the candidates with $F=y(y^2-4)Q\pm1$ that pass [D]'s filters, every one we examined has a periodic three-colouring, with these exceptions:
    - $f$ and its mirror $f(-x)$ (all candidates of degree $\le 12$ with coefficients bounded by $16$);
    - a degree-14 candidate, still undecided;
    - a few sparse higher-degree ones, still undecided.
@@ -185,6 +194,7 @@ This note was produced with AI assistance.
   - A separate Claude instance with no access to the search refereed the claim, re-implementing every check (`VERIFICATION.md`). It found the counterexample valid. Its expository fixes are incorporated, as are those from a review of the draft by GPT-6.2 Sol (OpenAI).
   - GPT-6.2 Astra (OpenAI) later re-checked the certificate and the polynomial facts with its own code (`verification/astra/`).
   - In a second check, GPT-6.2 Astra audited the Lean proof. It also contributed the explicit witness of Remark 1 and the result of Remark 2. See `verification/astra_3f96a35/`.
+- **Remark 3.** The coordinating Claude session found the lower bound of Remark 3 after Astra's second check.
 - **Formal proof.** Claude (Opus 5.5) agents wrote the Lean formalization in `lean/`. The coordinating Claude session audited it:
   - compared every statement with this note;
   - checked for `sorry` and extra axioms;

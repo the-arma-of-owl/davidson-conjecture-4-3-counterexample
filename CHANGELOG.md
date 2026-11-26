@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.3 (26 Nov 2026)
+
+The proof of the Theorem is unchanged.
+
+- **Remark 3 (new): a lower bound for finite witnesses.**
+  - Every finite non-3-colourable subgraph of $G_{79}$ contains a cycle of length at least 377, so it has at least 377 vertices.
+  - The same method gives 345 vertices for $G_{83}$, 144 for $G_{90}$ and 68 for $G_{120}$.
+  - The certificates are in `data/floor_certificates.json`. `code/check_floor.py` checks them in exact arithmetic, and `code/floor_search.py` is the search that found them.
+  - Remark 1 still gives the upper bound, so the smallest such subgraph of $G_{79}$ has between 377 and $7.95\times10^{52}$ vertices.
+
 ## v1.2 (26 Nov 2026)
 
 The proof of the Theorem is unchanged.

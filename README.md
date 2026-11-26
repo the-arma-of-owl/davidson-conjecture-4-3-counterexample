@@ -42,13 +42,13 @@ Bağımsız bir hakem (ayrı bir Claude oturumu) sertifikayı baştan kontrol et
 
 ## Pictures
 
-The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they differ by one of these steps. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$. One is known explicitly, by a formula (Remark 1 of the paper), but the only bound on its size is about $8\times10^{52}$ vertices. No small one is known. To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
+The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they differ by one of these steps. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$. One is known explicitly, by a formula (Remark 1 of the paper), but the only bound on its size is about $8\times10^{52}$ vertices. No small one is known, and a piece that uses only the steps $\alpha^0,\dots,\alpha^{79}$ needs at least 377 vertices (Remark 3). To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
 
 | | |
 |---|---|
 | ![](figures/piece_K24_D2.jpg) | ![](figures/piece_K40_D2.jpg) |
 
-**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça mutlaka $n\ge 79$ olan bir $\alpha^n$ adımı içermelidir. Formülle verilen böyle bir parça var (makaledeki Remark 1). Ama boyutu için bilinen tek sınır yaklaşık $8\times10^{52}$ köşe; küçük bir parça bilinmiyor.
+**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça mutlaka $n\ge 79$ olan bir $\alpha^n$ adımı içermelidir. Formülle verilen böyle bir parça var (makaledeki Remark 1). Ama boyutu için bilinen tek sınır yaklaşık $8\times10^{52}$ köşe; küçük bir parça bilinmiyor. Yalnızca $\alpha^0,\dots,\alpha^{79}$ adımlarını kullanan bir parçanın en az 377 köşesi olmalı (Remark 3).
 
 ## Verifying
 
@@ -94,7 +94,7 @@ Errors are possible. Please open an issue if you find one.
   year         = {2026},
   month        = nov,
   howpublished = {\url{https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample}},
-  note         = {Version 1.2}
+  note         = {Version 1.3}
 }
 ```
 
