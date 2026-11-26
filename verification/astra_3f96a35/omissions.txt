@@ -1,0 +1,1 @@
+PASS: deleting any one of the 68 rows makes the system feasible.

@@ -1,6 +1,6 @@
 # A counterexample to Davidson's Conjecture 4.3: a non-3-colourable monomial Cayley graph with an algebraic noninteger direction parameter
 
-*Efe Çam — with AI assistance (see "How this was produced" at the end). Version 1.1, 26 November 2026. Version 1.1 adds the Lean formalization and a third independent check; the mathematics is unchanged (see `CHANGELOG.md`).*
+*Efe Çam — with AI assistance (see "How this was produced" at the end). Version 1.2, 26 November 2026. Version 1.1 added the Lean formalization. Version 1.2 adds an explicit finite witness (Remark 1) and a second check by GPT-6.2 Astra. The proof of the Theorem is unchanged (see `CHANGELOG.md`).*
 
 ## Abstract
 
@@ -109,8 +109,7 @@ Nodes at depth $68$ must be of type (E). A valid tree therefore shows that no wo
 
 - `check_proof.py` (pure `fractions`, independent of the generator) accepts the tree in 148 s, and it rejects truncated or corrupted files.
 - An independent referee re-implemented the checker; see `VERIFICATION.md`. Its exact checker passes in 19.5 s. It also rebuilt the search from scratch with a different LP solver (GLPK), a different formulation and a different certificate type. That search produced exactly the same set of $75{,}530$ nodes, and a separate exact verifier accepts it. The same search without the symmetry reduction gives $151{,}059=2\cdot75{,}530-1$ nodes and also passes.
-- A second independent reviewer (GPT-6.2 Sol) re-checked all $75{,}530$ nodes in exact arithmetic; see `REVIEW_GPT-6.2-Sol.md`.
-- A third independent check (GPT-6.2 Astra) re-checked all $75{,}530$ nodes with its own integer-arithmetic checker; see `verification/astra/`.
+- GPT-6.2 Astra re-checked all $75{,}530$ nodes with its own integer-arithmetic checker; see `verification/astra/`. It repeated the check at a later commit, when it also audited the Lean proof; see `verification/astra_3f96a35/`.
 - MILP solvers agree: HiGHS reports $K=79,80$ infeasible and $K\le78$ feasible, and SCIP 10.1 (floating-point mode) reports $K=79$ infeasible and $K=78$ feasible.
 
 **Sharpness.** `certificate/fB_K78_feasible_cert.json` gives an exact rational $\sigma$ and a word $\tau$ for $K=78$; the referee confirmed it and produced two further exact solutions with SCIP. By Lemma 2$'$, $G_{78}$ is $3$-colourable.
@@ -134,7 +133,7 @@ The Lean kernel checks the following:
 - That no root of $f$ is an algebraic integer. If $\alpha$ were one, then so would be $\bar\alpha=\alpha^{-1}$, and hence $\alpha+\alpha^{-1}$, which is a root of $F$. If a root of $F$ were integral, its monic minimal polynomial $g$ would divide $F$ in $\mathbb Z[x]$. Since $F$ is irreducible modulo $3$, this forces $F=2g$, which is impossible because $F(0)=1$ is odd. This argument does not need the irreducibility of $f$.
 - The facts of §2 used above.
 
-One step uses `native_decide`: the claim that the checker accepts the $75{,}530$-node certificate. It is established by compiled evaluation, so the Lean compiler is trusted for that step. Four separately written exact checkers accept the same certificate.
+One step uses `native_decide`: the claim that the checker accepts the $75{,}530$-node certificate. It is established by compiled evaluation, so the Lean compiler is trusted for that step. Three separately written exact checkers in this repository also accept the same certificate: `code/check_proof.py`, the referee's `verification/referee_code/ref_check.py`, and GPT-6.2 Astra's `verification/astra/davidson.py`.
 
 Not formalized, and not needed for the refutation:
 
@@ -146,9 +145,23 @@ The conjecture's hypothesis "noninteger" is formalized as "not an algebraic inte
 
 ## 5. Remarks
 
-1. **Finite witnesses.** By de Bruijn–Erdős, some finite subgraph of $G_{79}$ is $4$-chromatic. Any such subgraph must use a step $\alpha^n$ with $n\ge 79$: the steps $\alpha^n$ with $n\le78$ preserve the cosets of $M_{78}$ in $\mathbb Z[\alpha]$, and each coset induces a copy of the $3$-colourable graph $G_{78}$. This says nothing about the size of a witness. We have not found an explicit finite witness. The sumset vertex sets we tried (up to about $2.5$ million vertices) induced $3$-colourable graphs.
-2. **Calibration.** The same computation for the monic sextic $x^6-x^4-x^3-x^2+1$ of [D] gives threshold $K=12$. This matches the exponent range of the 24-vertex witness of [D].
-3. **Other candidates.** Among the candidates with $F=y(y^2-4)Q\pm1$ that pass [D]'s filters, every one we examined has a periodic three-colouring, with these exceptions:
+1. **Finite witnesses.** Some finite subgraph of $G_{79}$ is $4$-chromatic. This follows from de Bruijn–Erdős [dBE], and explicitly from the construction below. Any such subgraph must use a step $\alpha^n$ with $n\ge 79$: the steps $\alpha^n$ with $n\le78$ preserve the cosets of $M_{78}$ in $\mathbb Z[\alpha]$, and each coset induces a copy of the $3$-colourable graph $G_{78}$.
+
+   *An explicit witness* (GPT-6.2 Astra; `verification/astra_3f96a35/`). Let $B=\{-10,\dots,10\}^{80}$, and let $S$ be the graph on $\pi(B)$ whose edges are the images of the unit edges of $B$. Then $S$ is not $3$-colourable.
+
+   *Proof.* Let $A$ be the $68\times80$ matrix with rows $\ell_0,\dots,\ell_{67}$. Every row and every column of $A$ has absolute sum at most $19$.
+
+   - **Heights.** Pull a $3$-colouring of $S$ back to $B$. As in Lemma 2 it gives a height function $h$ on $B$, because closed walks in a box are generated by its unit squares.
+   - **Jumps.** For each $j$, the difference $h(x+\ell_j)-h(x)$ is constant on the box $B\cap(B-\ell_j)$. Call it $t_j$. As in Lemma 2, $t_j\in3(2\mathbb Z+1)$.
+   - **A closed walk.** Fix $m\in\mathbb Z^{68}$ and put $z=A^{\mathsf T}m$. Take $|m_j|$ jumps $\operatorname{sgn}(m_j)\,\ell_j$ for each $j$ and $|z_i|$ unit steps $-\operatorname{sgn}(z_i)\,e_i$ for each $i$. These moves sum to zero.
+   - **It stays in $B$.** Schedule the $N$ copies of each kind of move at the times $(k-\tfrac12)/N$, $k=1,\dots,N$, and perform all moves in time order, starting at $0$. At every moment, each kind has been used within $\tfrac12$ of its proportional share, and the proportional shares sum to zero. So coordinate $i$ stays within $\tfrac12\bigl(\sum_j|(\ell_j)_i|+1\bigr)\le10$ of $0$.
+   - **The inequality.** Along the walk, $h$ changes by $\pm t_j$ at each jump and by $\pm1$ at each unit step, and it returns to its starting value. Hence $|m\cdot t|\le\|A^{\mathsf T}m\|_1$. By scaling and continuity this holds for all real $m$.
+   - **Contradiction.** Since $\|A^{\mathsf T}m\|_1=\max_{\sigma\in[-1,1]^{80}}m\cdot A\sigma$, the separation theorem gives $t=A\sigma$ for some $\sigma\in[-1,1]^{80}$. This contradicts Proposition 3. $\square$
+
+   **Size.** Every vertex of $S$ can be written as $\sum_{k=12}^{79}r_k\alpha^k+\sum_{i<12}u_i\alpha^i$ with $r_k\in\{0,1\}$, because $a_{12}=2$. Each $u_i$ takes boundedly many values. So $S$ has fewer than $7.95\times10^{52}$ vertices (`witness_bound.py`), which is far too many to list. The construction is not formalized in Lean. We know of no small explicit witness. The sumset vertex sets we tried (up to about $2.5$ million vertices) induced $3$-colourable graphs.
+2. **Each equation is needed.** Deleting any one of the $68$ equations of Proposition 3 leaves a feasible system. For each $j$, GPT-6.2 Astra gave an exact rational $\sigma\in[-1,1]^{80}$ that satisfies the other $67$ equations (`verification/astra_3f96a35/omission_witnesses.json`); we re-checked all $68$. So no proper subset of the equations suffices.
+3. **Calibration.** The same computation for the monic sextic $x^6-x^4-x^3-x^2+1$ of [D] gives threshold $K=12$. This matches the exponent range of the 24-vertex witness of [D].
+4. **Other candidates.** Among the candidates with $F=y(y^2-4)Q\pm1$ that pass [D]'s filters, every one we examined has a periodic three-colouring, with these exceptions:
    - $f$ and its mirror $f(-x)$ (all candidates of degree $\le 12$ with coefficients bounded by $16$);
    - a degree-14 candidate, still undecided;
    - a few sparse higher-degree ones, still undecided.
@@ -168,7 +181,10 @@ This note was produced with AI assistance.
 - **Direction.** Efe Çam directed the work.
 - **Search and certificate.** A Claude (Anthropic) agent, running in Claude Code, found the polynomial, derived the criterion, and wrote the certificate generator and checker. It found the criterion independently; only afterwards did it see that the criterion was already recorded in [K].
 - **Write-up.** Claude also wrote this note.
-- **Independent checks.** A separate Claude instance with no access to the search refereed the claim, re-implementing every check; see `VERIFICATION.md`. GPT-6.2 Sol (OpenAI) refereed the draft independently; see `REVIEW_GPT-6.2-Sol.md`. Both found the counterexample valid, and their expository fixes are incorporated. GPT-6.2 Astra later re-checked the certificate and the polynomial facts with its own code; see `verification/astra/`.
+- **Independent checks.**
+  - A separate Claude instance with no access to the search refereed the claim, re-implementing every check (`VERIFICATION.md`). It found the counterexample valid. Its expository fixes are incorporated, as are those from a review of the draft by GPT-6.2 Sol (OpenAI).
+  - GPT-6.2 Astra (OpenAI) later re-checked the certificate and the polynomial facts with its own code (`verification/astra/`).
+  - In a second check, GPT-6.2 Astra audited the Lean proof. It also contributed the explicit witness of Remark 1 and the result of Remark 2. See `verification/astra_3f96a35/`.
 - **Formal proof.** Claude (Opus 5.5) agents wrote the Lean formalization in `lean/`. The coordinating Claude session audited it:
   - compared every statement with this note;
   - checked for `sorry` and extra axioms;

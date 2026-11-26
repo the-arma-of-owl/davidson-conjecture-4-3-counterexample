@@ -1,0 +1,24 @@
+def Davidson.Conjecture43 : Prop :=
+∀ (α : ℂ), ‖α‖ = 1 → IsAlgebraic ℚ α → ¬IsIntegral ℤ α → (Davidson.Gamma α).chromaticNumber ≤ 3
+'Davidson.necessity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.lemma2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.prop3_of_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.prop3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+'Davidson.K78.sharp78' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.not_isIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.gamma_not_colorable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+'Davidson.root_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+'Davidson.conjecture43_false' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+Davidson.cert_ok._native.native_decide.ax_1_1 : decide (Davidson.checkRoot Davidson.cert = true) = true

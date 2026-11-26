@@ -1,6 +1,6 @@
 # Lean formalization: Conjecture 4.3 is false
 
-The code uses Lean 4.37.0-rc1 and Mathlib v4.37.0-rc1. No file contains `sorry`, `admit` or a new `axiom`. [`STATEMENTS.md`](STATEMENTS.md) lists every theorem with its exact Lean statement, the sentence of the paper it formalizes, and every difference.
+The code uses Lean 4.37.0-rc1 and Mathlib v4.37.0-rc1. No file contains `sorry`, `admit` or an `axiom` declaration. The only axiom beyond Lean's standard three is the one that `native_decide` generates (see "Trust base" below). [`STATEMENTS.md`](STATEMENTS.md) lists every theorem with its exact Lean statement, the sentence of the paper it formalizes, and every difference.
 
 ## Main theorem
 
@@ -52,7 +52,7 @@ The last axiom is the one `native_decide` adds:
 Davidson.cert_ok._native.native_decide.ax_1_1 : decide (checkRoot cert = true) = true
 ```
 
-It states only that the checker accepts the embedded certificate. Lean establishes this by running compiled code, so the Lean compiler and runtime are trusted for this one step. Four separately written exact checkers also accept the same certificate: ours, the Claude referee's, GPT-6.2 Sol's and GPT-6.2 Astra's (see the repository README). Everything else is checked by the Lean kernel:
+It states only that the checker accepts the embedded certificate. Lean establishes this by running compiled code, so the Lean compiler and runtime are trusted for this one step. Three separately written exact checkers in this repository also accept the same certificate: ours (`code/check_proof.py`), the Claude referee's (`verification/referee_code/ref_check.py`) and GPT-6.2 Astra's (`verification/astra/davidson.py`). Everything else is checked by the Lean kernel:
 
 - the soundness of the checker, which holds for every tree;
 - Lemma 2;
@@ -76,7 +76,7 @@ sha256sum DavidsonLean/data/cert_L68.txt   # 89632a5f190cf60b3adbdeffcbb3d83bc6e
 lake exe cache get                         # prebuilt Mathlib
 lake build                                 # about 50 s after Mathlib
 lake env lean DavidsonLean/Conjecture.lean # prints the axioms of conjecture43_false
-lake env lean DavidsonLean/Test_Corrupt.lean   # negative tests: corrupted certificates are rejected
+lake env lean DavidsonLean/Test_Corrupt.lean   # negative tests (#guard): fails if a corrupted certificate is accepted
 ```
 
 ## How this was produced
@@ -94,3 +94,5 @@ The coordinating Claude session audited each round:
 - rebuilt the project from a clean state;
 - regenerated the certificate data from the published certificate and got an identical SHA-256;
 - ran tests showing that corrupted certificates are rejected.
+
+GPT-6.2 Astra later audited the Lean development independently, from the public repository at commit `3f96a35`. See [`../verification/astra_3f96a35/`](../verification/astra_3f96a35/).

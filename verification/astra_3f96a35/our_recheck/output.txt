@@ -1,0 +1,6 @@
+# python3 -I verification/astra_3f96a35/our_recheck/recheck.py verification/astra_3f96a35/omission_witnesses.json
+# run on 26 Nov 2026, 2 min 45 s
+omissions: 68/68 OK (each row alone can be dropped -> feasible)
+choices: [561, 570, 520, 564, 470, 379, 378, 452, 583, 534, 551, 550]
+bound: 7.9479e+52   21^80 = 5.992e+105
+scheduling: 300 random m, max |coordinate| on walk = 8 (claim: <= 10)

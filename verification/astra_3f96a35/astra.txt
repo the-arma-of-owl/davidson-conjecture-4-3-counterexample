@@ -1,0 +1,12 @@
+README.md: OK
+check12.py: OK
+count_graphs.py: OK
+davidson.py: OK
+path_examples.py: OK
+descent.cpp: OK
+minimal.cpp: OK
+14a215d3694109e971841ebf6bebf04a0065f2b08b5cedc0b882a76a4e5e4b02  matematik_dogrulama.zip
+89632a5f190cf60b3adbdeffcbb3d83bc6e7da10140d4d629aa38e6b1439054b  audit3/lean/DavidsonLean/data/cert_L68.txt
+7 files identical to original archive
+K=78, max |sigma| = 0.9926862486951674
+K=79, certified nodes = 75530 max depth = 67

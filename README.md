@@ -2,7 +2,7 @@
 
 ![Finite pieces of the graph](figures/banner.png)
 
-**Paper:** [`paper/counterexample.md`](paper/counterexample.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md), [`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md), [`verification/astra/`](verification/astra/) · **Lean:** [`lean/`](lean/) · **Certificate:** [`certificate/`](certificate/)
+**Paper:** [`paper/counterexample.md`](paper/counterexample.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md), [`verification/astra/`](verification/astra/), [`verification/astra_3f96a35/`](verification/astra_3f96a35/) · **Lean:** [`lean/`](lean/) · **Certificate:** [`certificate/`](certificate/)
 
 ## Result
 
@@ -38,17 +38,17 @@ Bu sanı yanlıştır. Yukarıdaki 12. dereceden $f$'nin her kökü için $\chi(
 - **Ölçüt.** Üç renklendirmeyi karakterlerle ilişkilendiren ölçüt; kullanılan yönü Lean'de biçimselleştirildi.
 - **Sertifika.** 75.530 düğümlü, kesin rasyonel sayılarla yazılmış bir sertifika.
 
-İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). "Sanı 4.3 yanlıştır" Lean 4'te tek bir teorem olarak kanıtlandı: `conjecture43_false` (`lean/`). Sanının Lean'deki ifadesi makaledekiyle aynı: birim uzunlukta, cebirsel ve cebirsel tamsayı olmayan her α için χ(Γ_α) ≤ 3. Ölçüt (Lemma 2), α'nın cebirsel tamsayı olmaması ve sertifika denetleyicisinin doğruluğu Lean çekirdeğinde kontrol edildi. Tek ek varsayım, sertifikanın `native_decide` ile kabulü. Sanıyı çürütmek için gerekmeyen χ ≤ 4 üst sınırı Lean'e geçirilmedi.
+Bağımsız bir hakem (ayrı bir Claude oturumu) sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle doğruladı (`verification/astra/`). İkinci denetiminde Lean kanıtını inceledi (`verification/astra_3f96a35/`). "Sanı 4.3 yanlıştır" Lean 4'te tek bir teorem olarak kanıtlandı: `conjecture43_false` (`lean/`). Sanının Lean'deki ifadesi makaledekiyle aynı: birim uzunlukta, cebirsel ve cebirsel tamsayı olmayan her α için χ(Γ_α) ≤ 3. Ölçüt (Lemma 2), α'nın cebirsel tamsayı olmaması ve sertifika denetleyicisinin doğruluğu Lean çekirdeğinde kontrol edildi. Tek ek varsayım, sertifikanın `native_decide` ile kabulü. Sanıyı çürütmek için gerekmeyen χ ≤ 4 üst sınırı Lean'e geçirilmedi.
 
 ## Pictures
 
-The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they differ by one of these steps. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$, and no explicit one is known. To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
+The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they differ by one of these steps. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$. One is known explicitly, by a formula (Remark 1 of the paper), but the only bound on its size is about $8\times10^{52}$ vertices. No small one is known. To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
 
 | | |
 |---|---|
 | ![](figures/piece_K24_D2.jpg) | ![](figures/piece_K40_D2.jpg) |
 
-**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça mutlaka $n\ge 79$ olan bir $\alpha^n$ adımı içermelidir. Böyle bir parça henüz açıkça bilinmiyor; büyüklüğü hakkında da bir şey bilinmiyor.
+**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça mutlaka $n\ge 79$ olan bir $\alpha^n$ adımı içermelidir. Formülle verilen böyle bir parça var (makaledeki Remark 1). Ama boyutu için bilinen tek sınır yaklaşık $8\times10^{52}$ köşe; küçük bir parça bilinmiyor.
 
 ## Verifying
 
@@ -62,13 +62,19 @@ cd .. && python3 code/check_proof.py "[2,2,1,-1,-2,-1,-1,-1,-2,-1,1,2,2]" 68 cer
 
 - **Direction.** Efe Çam directed the work.
 - **Search and certificate.** A Claude (Anthropic) agent, running in Claude Code, did the search, derived the criterion, and wrote the certificate generator and checker. It found the criterion independently; only afterwards did it learn that the criterion is already recorded, with a Lean proof, in kooshi/hadwiger-nelson. That work is credited throughout.
-- **Verification.** A separate Claude instance refereed the claim from scratch and re-implemented the checks ([`VERIFICATION.md`](VERIFICATION.md)). GPT-6.2 Sol (OpenAI) refereed it independently and re-checked all 75,530 nodes in exact arithmetic ([`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md)).
-- **Third check (GPT-6.2 Astra).** Working from commit `9f2a8de`, GPT-6.2 Astra did three things:
+- **Verification.** A separate Claude instance refereed the claim from scratch and re-implemented the checks ([`VERIFICATION.md`](VERIFICATION.md)).
+- **GPT-6.2 Astra (OpenAI).** Working from commit `9f2a8de`, GPT-6.2 Astra did three things:
   - re-verified the polynomial facts symbolically;
   - rebuilt the $K=78$ witness;
   - re-checked all 75,530 certificate nodes with its own integer-arithmetic checker.
 
   The package and our re-run are in [`verification/astra/`](verification/astra/).
+- **Second Astra check.** At commit `3f96a35`, GPT-6.2 Astra audited the Lean proof:
+  - compared the Lean statement of the conjecture with Davidson's paper;
+  - rebuilt the project from scratch and confirmed the axioms;
+  - confirmed that corrupted certificates are rejected.
+
+  It also found the explicit finite witness of Remark 1 and showed that each of the 68 equations is needed (Remark 2). Its package and our re-check are in [`verification/astra_3f96a35/`](verification/astra_3f96a35/).
 - **Lean.** Claude (Opus 5.5) agents wrote the Lean 4 code in three rounds: the certificate first, then Lemma 2, then non-integrality and the statement of the conjecture. The coordinating Claude session audited each round:
   - compared each statement with the paper;
   - rebuilt everything from scratch;
@@ -88,7 +94,7 @@ Errors are possible. Please open an issue if you find one.
   year         = {2026},
   month        = nov,
   howpublished = {\url{https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample}},
-  note         = {Version 1.1}
+  note         = {Version 1.2}
 }
 ```
 

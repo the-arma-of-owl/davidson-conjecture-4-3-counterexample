@@ -1,0 +1,1406 @@
+⚠ [18291/18317] Built DavidsonLean.CertData (3.9s)
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18317] Ran DavidsonLean.CertData:irArts
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18317] Built DavidsonLean.Extension (35s)
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [18294/18317] Ran DavidsonLean.Extension:irArts
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18295/18317] Built DavidsonLean.Height (36s)
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [18296/18317] Ran DavidsonLean.Height:irArts
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18297/18317] Built DavidsonLean.Checker (40s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean:228:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Checker.lean:258:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [18298/18317] Ran DavidsonLean.Checker:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18317] Built DavidsonLean.Parse (17s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18317] Ran DavidsonLean.Parse:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18317] Built DavidsonLean.Criterion (19s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Criterion.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [18302/18317] Ran DavidsonLean.Criterion:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18317] Built DavidsonLean.Sharp78 (20s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Sharp78.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: DavidsonLean/Sharp78.lean:16:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:19:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:20:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:21:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:22:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:23:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:24:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:25:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:26:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:27:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:28:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:29:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:30:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:31:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:32:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:33:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:34:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:35:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:36:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:37:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:38:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:39:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:40:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:41:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:42:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:43:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:44:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:45:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:46:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:47:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:48:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:49:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:50:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:51:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:52:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:53:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:54:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:55:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:56:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:57:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:58:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:59:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:60:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:61:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:62:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:63:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:64:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:65:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:66:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:67:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:68:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:69:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:70:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:71:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:72:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:73:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:74:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:75:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:76:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:77:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:78:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:79:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:80:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:81:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:82:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:83:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:84:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:85:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:86:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:87:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:88:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:89:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:90:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:91:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:92:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:93:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:94:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:95:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:96:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:97:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:99:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: DavidsonLean/Sharp78.lean:123:58: Numeric projections are disallowed.
+
+  [apply] Instead, use `.isLt`.
+
+To allow numeric projections for all terms of type `Fin`, add `@[allow_numeric_proj]` at the declaration site of `Fin`.
+
+Note: This linter can be disabled with `set_option linter.style.numericProjections false`
+warning: DavidsonLean/Sharp78.lean:127:28: Numeric projections are disallowed.
+
+  [apply] Instead, use `.isLt`.
+
+To allow numeric projections for all terms of type `Fin`, add `@[allow_numeric_proj]` at the declaration site of `Fin`.
+
+Note: This linter can be disabled with `set_option linter.style.numericProjections false`
+info: DavidsonLean/Sharp78.lean:144:0: 'Davidson.K78.sharp78' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18304/18317] Ran DavidsonLean.Sharp78:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18305/18317] Built DavidsonLean.Poly (24s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Poly.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: DavidsonLean/Poly.lean:154:2: `simp [sq] at hre him` is a flexible tactic modifying `hre`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/Poly.lean:154:2: Try this:
+  [apply] simp only [ne_eq] at hre him
+info: DavidsonLean/Poly.lean:157:2: `have hv : v ≠ 0 := by
+  intro hv0
+  rw [hv0] at hre
+  nlinarith [sq_nonneg (u - r / 2)]`
+uses `hre`, which was modified by the flexible tactic `simp` on line 154!
+warning: DavidsonLean/Poly.lean:154:2: `simp [sq] at hre him` is a flexible tactic modifying `hre`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/Poly.lean:154:2: Try this:
+  [apply] simp only [ne_eq] at hre him
+info: DavidsonLean/Poly.lean:161:2: `have hu : 2 * u = r := by
+  have : v * (2 * u - r) = 0 := by linarith
+  rcases mul_eq_zero.1 this with h | h
+  · exact absurd h hv
+  · linarith`
+uses `hre`, which was modified by the flexible tactic `simp` on line 154!
+warning: DavidsonLean/Poly.lean:154:2: `simp [sq] at hre him` is a flexible tactic modifying `him`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/Poly.lean:154:2: Try this:
+  [apply] simp only [ne_eq] at hre him
+info: DavidsonLean/Poly.lean:161:2: `have hu : 2 * u = r := by
+  have : v * (2 * u - r) = 0 := by linarith
+  rcases mul_eq_zero.1 this with h | h
+  · exact absurd h hv
+  · linarith`
+uses `him`, which was modified by the flexible tactic `simp` on line 154!
+warning: DavidsonLean/Poly.lean:154:2: `simp [sq] at hre him` is a flexible tactic modifying `him`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/Poly.lean:154:2: Try this:
+  [apply] simp only [ne_eq] at hre him
+info: DavidsonLean/Poly.lean:166:2: `have hn : u * u + v * v = 1 := by nlinarith`
+uses `him`, which was modified by the flexible tactic `simp` on line 154!
+warning: DavidsonLean/Poly.lean:154:2: `simp [sq] at hre him` is a flexible tactic modifying `hre`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/Poly.lean:154:2: Try this:
+  [apply] simp only [ne_eq] at hre him
+info: DavidsonLean/Poly.lean:166:2: `have hn : u * u + v * v = 1 := by nlinarith`
+uses `hre`, which was modified by the flexible tactic `simp` on line 154!
+info: DavidsonLean/Poly.lean:175:0: 'Davidson.Poly.f_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:176:0: 'Davidson.Poly.f_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:177:0: 'Davidson.Poly.a_palindromic' depends on axioms: [propext]
+info: DavidsonLean/Poly.lean:178:0: 'Davidson.Poly.f_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:179:0: 'Davidson.Poly.f_leadingCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:180:0: 'Davidson.Poly.f_eval_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:181:0: 'Davidson.Poly.f_eval_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:182:0: 'Davidson.Poly.trace_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:183:0: 'Davidson.Poly.F_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:184:0: 'Davidson.Poly.F_six_real_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:185:0: 'Davidson.Poly.F_roots_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Poly.lean:186:0: 'Davidson.Poly.roots_on_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18306/18317] Ran DavidsonLean.Poly:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18317] Built DavidsonLean.NonInteger (8.1s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/NonInteger.lean:3:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `namespace Davidson.NonInteger`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: DavidsonLean/NonInteger.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e0`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:34:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e0`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e1`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:34:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e1`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:34:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e4`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:34:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e4`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e5`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:34:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e5`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e3`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:34:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e3`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:35:4: `generalize f.coeff 0 = a0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:35:31: `generalize f.coeff 1 = a1`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:35:58: `generalize f.coeff 2 = a2`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:36:4: `generalize f.coeff 3 = a3`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:36:31: `generalize f.coeff 4 = a4`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:36:58: `generalize g.coeff 0 = b0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:37:4: `revert a0 a1 a2 a3 a4 b0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:33:4: `simp [coeff_X_pow, f1, g1, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:38:4: `decide`
+uses `e2`, which was modified by the flexible tactic `simp` on line 33!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e5`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:40:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e5`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e1`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:40:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e1`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e0`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:40:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e0`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e3`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:40:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e3`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e4`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:40:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e4`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:40:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:41:4: `generalize f.coeff 0 = a0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:41:31: `generalize f.coeff 1 = a1`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:41:58: `generalize f.coeff 2 = a2`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:42:4: `generalize f.coeff 3 = a3`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:42:31: `generalize g.coeff 0 = b0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:42:58: `generalize g.coeff 1 = b1`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:43:4: `revert a0 a1 a2 a3 b0 b1`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:39:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:44:4: `decide`
+uses `e2`, which was modified by the flexible tactic `simp` on line 39!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:46:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e5`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:46:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e5`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e1`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:46:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e1`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e0`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:46:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e0`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e4`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:46:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e4`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e3`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:46:4: `revert e0 e1 e2 e3 e4 e5`
+uses `e3`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:47:4: `generalize f.coeff 0 = a0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:47:31: `generalize f.coeff 1 = a1`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:47:58: `generalize f.coeff 2 = a2`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:48:4: `generalize g.coeff 0 = b0`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:48:31: `generalize g.coeff 1 = b1`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:48:58: `generalize g.coeff 2 = b2`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:49:4: `revert a0 a1 a2 b0 b1 b2`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:45:4: `simp [coeff_X_pow, f1, g1, fz, gz] at e0 e1 e2 e3 e4 e5` is a flexible tactic modifying `e2`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:50:4: `decide`
+uses `e2`, which was modified by the flexible tactic `simp` on line 45!
+warning: DavidsonLean/NonInteger.lean:78:37: `simp at hF` is a flexible tactic modifying `hF`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: DavidsonLean/NonInteger.lean:78:49: `exact hF0 hF`
+uses `hF`, which was modified by the flexible tactic `simp` on line 78!
+info: DavidsonLean/NonInteger.lean:140:0: 'Davidson.NonInteger.P_irreducible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/NonInteger.lean:141:0: 'Davidson.NonInteger.F_root_not_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/NonInteger.lean:142:0: 'Davidson.not_isIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/NonInteger.lean:143:0: 'Davidson.isAlgebraic_of_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18308/18317] Ran DavidsonLean.NonInteger:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18317] Built DavidsonLean.Prop3 (74s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Prop3.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: DavidsonLean/Prop3.lean:17:46: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove `False`.
+
+Note: This linter can be disabled with `set_option linter.style.native false`
+info: DavidsonLean/Prop3.lean:28:0: 'Davidson.prop3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+info: DavidsonLean/Prop3.lean:29:0: 'Davidson.prop3_of_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Prop3.lean:30:0: 'Davidson.cert_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+⚠ [18310/18317] Ran DavidsonLean.Prop3:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18311/18317] Built DavidsonLean.Gamma (6.2s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Gamma.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: DavidsonLean/Gamma.lean:107:0: 'Davidson.lemma2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Gamma.lean:108:0: 'Davidson.gamma_not_colorable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+info: DavidsonLean/Gamma.lean:109:0: 'Davidson.four_le_chromaticNumber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+⚠ [18312/18317] Ran DavidsonLean.Gamma:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18313/18317] Built DavidsonLean.Conjecture (3.8s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Conjecture.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: DavidsonLean/Conjecture.lean:47:0: 'Davidson.root_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+info: DavidsonLean/Conjecture.lean:48:0: 'Davidson.exists_root_f' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DavidsonLean/Conjecture.lean:49:0: 'Davidson.conjecture43_false' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+⚠ [18314/18317] Ran DavidsonLean.Conjecture:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18315/18317] Built DavidsonLean (2.9s)
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18316/18317] Ran DavidsonLean:irArts
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Height.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Extension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/CertData.lean: imports `Mathlib.Init` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: DavidsonLean/Checker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18317 jobs).

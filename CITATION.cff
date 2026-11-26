@@ -5,7 +5,7 @@ authors:
   - family-names: "Çam"
     given-names: "Efe"
     orcid: "https://orcid.org/0009-0003-2488-1287"
-version: "1.1"
+version: "1.2"
 date-released: "2026-11-26"
 url: "https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample"
 repository-code: "https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample"
@@ -19,7 +19,8 @@ abstract: >-
   (arXiv:2610.09474), which predicts that three colours suffice whenever
   alpha is an algebraic noninteger. The repository contains an exact
   75,530-node infeasibility certificate with rational Farkas multipliers, a
-  checker, and two independent referee reports.
+  checker, an independent referee report, two independent checks by GPT-6.2
+  Astra, and a Lean 4 proof of the refutation.
 keywords:
   - graph colouring
   - chromatic number
@@ -37,7 +38,7 @@ preferred-citation:
   year: 2026
   month: 11
   url: "https://github.com/the-arma-of-owl/davidson-conjecture-4-3-counterexample"
-  notes: "Version 1.1"
+  notes: "Version 1.2"
 references:
   - type: article
     title: "Coloring Monomial Cayley Graphs: The One-Parameter Case"

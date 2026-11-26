@@ -1,0 +1,6 @@
+sextic sumset K11: V=830 E=4828 SAT=True wall=0.023s
+sextic sumset K12: V=830 E=4848 SAT=False wall=0.016s
+  blind vertex-minimal core: 29
+published witness K11: V=24 E=50 SAT=True wall=0.000s
+published witness K12: V=24 E=51 SAT=False wall=0.001s
+fB all 68 relation loops, swaps, translations, K79: V=33103 E=80272 SAT=True wall=4.543s

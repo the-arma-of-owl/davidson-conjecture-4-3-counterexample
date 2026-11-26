@@ -1,0 +1,9 @@
+'Davidson.root_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]
+'Davidson.exists_root_f' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Davidson.conjecture43_false' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Davidson.cert_ok._native.native_decide.ax_1_1]

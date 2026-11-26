@@ -15,6 +15,9 @@ def negYu : Cert → Cert | .node yu yl ks => .node (yu.map fun p => (p.1, -p.2)
 def kidsOf : Cert → Nat | .node _ _ ks => ks.length
 end Davidson
 open Davidson
--- nodes with children near the given preorder indices
-#eval [1000, 30000, 60000].map fun n => checkRoot (modAt dropLastKid n 0 cert).2
-#eval [1001, 30001, 60001].map fun n => checkRoot (modAt negYu n 0 cert).2
+-- `#guard` makes this file fail to compile if a check does not come out as stated.
+-- Positive control: the unmodified tree is accepted.
+#guard checkRoot cert
+-- Corrupt the nodes near the given preorder indices: every corrupted tree must be rejected.
+#guard [1000, 30000, 60000].all fun n => !checkRoot (modAt dropLastKid n 0 cert).2
+#guard [1001, 30001, 60001].all fun n => !checkRoot (modAt negYu n 0 cert).2

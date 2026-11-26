@@ -1,7 +1,7 @@
 # Davidson counterexample: Lean statements
 
 Paper: [`../paper/counterexample.md`](../paper/counterexample.md). Davidson's paper [D] is arXiv:2610.09474.
-Lean 4.37.0-rc1 and Mathlib v4.37.0-rc1. Every file listed here compiles with no `sorry`, `admit` or new `axiom`.
+Lean 4.37.0-rc1 and Mathlib v4.37.0-rc1. Every file listed here compiles with no `sorry`, `admit` or `axiom` declaration. The one auxiliary axiom that `native_decide` generates is described in §1.
 
 Shared definition (in `Checker.lean`), following the paper's indexing a_0..a_12:
 ```lean
@@ -37,7 +37,7 @@ axiom Davidson.cert_ok._native.native_decide.ax_1_1 : decide (Davidson.checkRoot
 ```
 This axiom is justified by compiled evaluation. Here the evaluation goes through the IR interpreter plus the native Lean runtime for Rat/Int/GMP. The trust is the same kind as `Lean.ofReduceBool`: you must trust the Lean compiler and interpreter. Soundness of the checker is fully kernel-checked.
 
-Negative tests are in `Test_Corrupt.lean`; it is not part of the proof. Dropping a required child at preorder nodes 1000, 30000 and 60000 makes the checker return `false`. Negating `yu` at nodes 1001, 30001 and 60001 also gives `false`.
+Negative tests are in `Test_Corrupt.lean`; it is not part of the proof. Dropping a required child at preorder nodes 1000, 30000 and 60000 makes the checker return `false`. Negating `yu` at nodes 1001, 30001 and 60001 also gives `false`. The checks are `#guard` commands, so the file fails to compile if any corrupted tree is accepted. A positive control checks that the unmodified tree is accepted.
 
 ## 2. Sharpness, K = 78 (`Sharp78.lean`)
 
@@ -84,7 +84,7 @@ Run from this `lean/` folder:
 | `lake env lean DavidsonLean/Prop3.lean` (this runs `native_decide`) | 35 s |
 | `lake env lean DavidsonLean/Sharp78.lean` | 2 s |
 | `lake env lean DavidsonLean/Poly.lean` | 3 s |
-| `lake env lean DavidsonLean/Test_Corrupt.lean` | 79 s |
+| `lake env lean DavidsonLean/Test_Corrupt.lean` (with the positive control) | 121 s |
 
 ## 4. Lemma 2 (necessity) and the main lower bound (`Height.lean`, `Extension.lean`, `Criterion.lean`, `Gamma.lean`)
 
