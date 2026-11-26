@@ -31,13 +31,13 @@ Bu sanı yanlıştır. Yukarıdaki 12. dereceden $f$'nin her kökü için $\chi(
 
 ## Pictures
 
-The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they are at distance one. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$, and no explicit one is known. To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
+The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they differ by one of these steps. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$, and no explicit one is known. To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
 
 | | |
 |---|---|
 | ![](figures/piece_K24_D2.jpg) | ![](figures/piece_K40_D2.jpg) |
 
-**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça çok daha büyüktür ve henüz açıkça bilinmemektedir.
+**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça mutlaka $n\ge 79$ olan bir $\alpha^n$ adımı içermelidir. Böyle bir parça henüz açıkça bilinmiyor; büyüklüğü hakkında da bir şey bilinmiyor.
 
 ## Verifying
 
