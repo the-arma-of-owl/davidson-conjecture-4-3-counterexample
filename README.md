@@ -1,5 +1,7 @@
 # Davidson's Conjecture 4.3 is false: a non-3-colourable monomial Cayley graph with an algebraic noninteger parameter
 
+![Finite pieces of the graph](figures/banner.png)
+
 **Paper:** [`paper/counterexample.md`](paper/counterexample.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md), [`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md), [`verification/astra/`](verification/astra/) · **Lean:** [`lean/`](lean/) · **Certificate:** [`certificate/`](certificate/)
 
 ## Result
@@ -26,6 +28,16 @@ Bu sanı yanlıştır. Yukarıdaki 12. dereceden $f$'nin her kökü için $\chi(
 - **Sertifika.** 75.530 düğümlü, kesin rasyonel sayılarla yazılmış bir sertifika.
 
 İki bağımsız hakem sertifikayı baştan kontrol etti. GPT-6.2 Astra da kendi denetleyicisiyle bir kez daha doğruladı (`verification/astra/`). Sertifika (Önerme 3), K=78 keskinliği ve polinomla ilgili olgular ayrıca Lean 4'te doğrulandı (`lean/`).
+
+## Pictures
+
+The graph $\Gamma_\alpha$ is infinite, so it cannot be drawn whole. The figures in [`figures/`](figures/) show finite pieces of it for one root $\alpha\approx e^{0.893i}$ of $f$: all points within 2 or 3 unit steps $\pm\alpha^n$ of $0$, joined when they are at distance one. They are illustrations, not part of the proof. Every piece shown uses only steps with $n\le 78$, so it lies in $G_{78}$ and is still 3-colourable. A 4-chromatic finite piece must use a step $\alpha^n$ with $n\ge 79$, and no explicit one is known. To regenerate: `python3 code/draw_figures.py` (needs `numpy`, `matplotlib`).
+
+| | |
+|---|---|
+| ![](figures/piece_K24_D2.jpg) | ![](figures/piece_K40_D2.jpg) |
+
+**Resimler (Türkçe).** $\Gamma_\alpha$ sonsuz olduğu için tamamı çizilemez. Görseller grafın sonlu parçalarıdır ve kanıtın parçası değildir. Çizilen parçaların hepsi hâlâ 3 renkle boyanabilir; 4 renk gerektiren sonlu bir parça çok daha büyüktür ve henüz açıkça bilinmemektedir.
 
 ## Verifying
 
